@@ -1,0 +1,42 @@
+@media screen and (min-width: 1000px) and (max-width: 1599px) {
+  .pets {
+    .wrapper {
+      .petsButtonContainer {
+        margin: 0 auto 140px auto;
+      }
+
+      .plantImgLeftContainer {
+        display: none;
+
+        img {
+          display: none;
+          width: 0;
+          height: 0;
+        }
+      }
+
+      .plantImgLeftContainerMedia {
+        // display: flex;
+        // position: absolute;
+        // left: 0;
+        // margin-top: 1041px;
+      }
+
+      .plantImgRightContainer {
+        display: none;
+        width: 0;
+        height: 0;
+      }
+    }
+  }
+
+  .testimonials {
+    .wrapper {
+      .leafImgContainer {
+        display: none;
+        width: 0;
+        height: 0;
+      }
+    }
+  }
+}
